@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="estilosb.css">
+  <link rel="stylesheet" type="text/css" href="slide.css">
+	<script type="text/javascript">
+		function changeBackground() {
+			var body = document.body;
+			//document.body.style.backgroundImage = "url(f7.jpg)";
+			body.classList.toggle("dark-mode");
+		}
+		function changeStyles(styleClass) {
+			var contentDiv = document.getElementById("content");
+			contentDiv.className = styleClass;
+		}
+	</script>
+	<title>Blog personal mis hobbys y mas</title>
+</head>
+<body>
+  <header id="en">
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#bloque1">Publicaciones</a></li>
+        <li><a href="#tablas">Tablas</a></li>
+        <li><button id="btnChangeBackground" onclick="changeBackground()">Cambiar Imagen</button></li>
+        <li><button onclick="changeStyles('pc-styles')" id="pc">Diseño para Tablet</button></li>
+        <li><button onclick="changeStyles('mobile-styles')" id="movil">Diseño para Móvil</button></li>
+        <li><button onclick="changeStyles('tablet-styles')" id="tablet">Diseño para PC</button></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Contenido de la página -->
+<div id="content" class="pc-styles">
+  <main>
+    <div class="blog-post">
+      <div class="blog-content">
+        <h1>Bienvenido a mi blog</h1>
+        <article>
+          <h2> Sobre Mi </h2>
+          <p>"Bienvenidos a mi blog, un espacio dedicado a compartir mis pasiones y descubrimientos en el mundo de las palabras, la música y la cultura. Aquí podrás sumergirte en un universo de publicaciones donde comparto mis reflexiones, experiencias y creaciones.</p>
+          <p>En mi blog, te invito a explorar mis escritos y publicaciones, donde plasmo mis pensamientos, relatos y poesía. A través de mis palabras, espero inspirarte, emocionarte y desafiarte a ver el mundo desde nuevas perspectivas.</p>
+          <p>Además, encontrarás reseñas de libros que han dejado huella en mí. Compartiré mis recomendaciones literarias, destacando historias que han tocado mi corazón y han enriquecido mi vida. Te invito a descubrir nuevas lecturas y sumergirte en mundos fascinantes.</p>
+          <p>La música es otra de mis grandes pasiones, y en este blog también encontrarás contenido dedicado a cantantes y músicos que me han cautivado. Compartiré mis canciones favoritas, análisis de álbumes y conciertos que han dejado una profunda impresión en mí. La música es un lenguaje universal y espero que mis recomendaciones te inspiren y te hagan descubrir nuevos artistas.</p>
+        </article>
+      </div>
+        <div class="blog-image">
+          <article>
+            <img src="https://media.tenor.com/fcxjWjKPwuIAAAAC/que-como.gif" alt="Imagen del Blog" width="50%">
+          </article>
+      </div>
+      </div>
+   <article>
+      <h2>Otro artículo interesante</h2>
+   </article>
+    <div class="container">
+      <div id="bloque">
+        <article contenteditable="true">
+          <h1>PUBLICACIONES DE INTERES</h1>
+          <div style="text-align: center; width: 90%;">
+            <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>  
+            <div class="fb-post" data-href="https://m.facebook.com/story.php?story_fbid=pfbid0qk559HezVD61DEJRQbH7625spztJGV9xEQGuuxY67yxyTs2KRsBJixs4zy8vbWFkl&id=353398875492332&mibextid=Nif5oz" data-width="200"></div>
+          </div>
+        </article>
+        <article contenteditable="true">
+          <h1>PELICULAS</h1>
+          <div style="text-align: center; width: 90%;">
+          <iframe src="https://www.facebook.com/plugins/video.php?height=340&href=https%3A%2F%2Fwww.facebook.com%2Ffaridieck%2Fvideos%2F1295553801371750%2F&show_text=false&width=317&t=0" width="300" height="346" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        </div>
+        </article>
+        <article contenteditable="true">
+          <h1>INTERES POETICO</h1>
+          <div style="text-align: center; width: 90%;">
+         <div class="fb-post" data-href="https://www.facebook.com/photo/?fbid=584253930025658&set=a.547985673652484"data-width="225"></div>
+       </div>
+        </article>
+        <article contenteditable="true">
+          <h1>FISICA </h1>
+          <div style="text-align: center; width: 90%;">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100044385285417%2Fvideos%2F1688859374839462%2F&show_text=false&width=267&t=0" width="217" height="376" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          </div>
+        </article>
+        <article contenteditable="true">
+          <h1>INTERES LITERARIO</h1>
+          <div style="text-align: center; width: 90%;">
+          <div class="fb-post" data-href="https://www.facebook.com/photo/?fbid=286867317111452&set=gm.6621848767833777&idorvanity=2472139679471394"data-width="225"></div>
+        </div>
+        </article>
+      </div>
+      <div id="bloque1">
+        <article contenteditable="true" style="text-align: center;">
+          <h1>WWW</h1>
+          <iframe src="https://docs.google.com/gview?url=http://www.educoas.org/portal/bdigital/contenido/valzacchi/ValzacchiCapitulo-2New.pdf&embedded=true" style="width:95%; height:350px;" frameborder="0" ></iframe>
+        </article>
+        <article contenteditable="true" style="text-align: center;">
+          <h1> OVERLORD ESPECIAL</h1>
+          <iframe src="https://drive.google.com/file/d/1CHUztWh6fEQjw0EbATebRjrYGz05Hmde/preview" width="95%" height="100%" allow="autoplay"></iframe>
+        </article>
+        <article contenteditable="true" style="text-align: center;">
+          <h1> AMAYATSU</h1>
+          <iframe src="https://drive.google.com/file/d/1ftv211N9J5eDESKJSeip3b1qMdk-AEYn/preview" width="95%" height="100%" allow="autoplay" embedded="true"></iframe>
+        </article>
+        <article contenteditable="true" style="text-align: center;">
+          <h1> OBORERU</h1>
+          <iframe src="https://drive.google.com/file/d/1snp1kEg3zrV_JdTGWv03M8abhMghTX-L/preview " width="95%" height="100%" allow="autoplay"></iframe>
+        </article>
+        <article contenteditable="true" style="text-align: center;">
+          <h1>RE:ZERO VL 7</h1>
+          <iframe src="https://drive.google.com/file/d/1OPelF0v8OtOlxxWun7aVbnUGoxZzRFI1/preview" width="95%" height="100%" allow="autoplay"></iframe>
+        </article>
+      </div>
+      <div id="bloque2">
+        <article contenteditable="true">
+          <h1> Cantantes, Musicos Etc</h1>
+           <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/136/443/desktop-wallpaper-aimer-after-dark%E3%80%8C-album-full-%E3%80%8D-%E3%82%A8%E3%83%A1-aimer-%E3%81%AE%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-after-dark-aimer.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item" style="max-width: 100%; text-align: center;">
+                    <img src="https://i.ytimg.com/vi/AJYDKo3raGQ/hqdefault.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="https://i.pinimg.com/originals/18/3b/ea/183bea7bde1a3e7d1600ec54f54b4e92.png">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+          </div>
+        </article>
+        <article contenteditable="true">
+          <h1> Canserbero</h1>
+          <h2>Acerca de</h2>
+          <p>Tirone José González Orama, mejor conocido por su nombre artístico Canserbero, ​​fue un rapero, compositor y activista venezolano, ​considerado como uno de los exponentes más significativos del rap independiente en su país de origen​ y en el resto de América Latina.</p>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1wGIhYkKWSq4yACtTkCkSX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article>
+        <article contenteditable="true">
+          <h1>Citizen Soldier</h1>
+          <h2>PELEAR LA BUENA BATALLA</h2>
+            <p>Citizen Soldier nació en 2016 cuando el líder Jake Segura escribió la letra de "Let It Burn" desde un hospital psiquiátrico. Ahora que ejerce como terapeuta clínico, implementa temas líricos intensamente emocionales sobre la salud mental en su música. La banda presenta un mensaje accesible que combate la estigmatización y proporciona una dinámica de terapia de grupo.</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7fM0h2CG7zKqKc0jEa1b4R?utm_source=generator" width="100%" height="350" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </article>
+        <article contenteditable="true">
+          <h1>Sur 16</h1>
+          <h2>“SUR 16”</h2>
+            <p>TOCANDO EN TODOS LOS PUNTOS CARDINALES NORTE, ESTE, OESTE Y DESPUÈS SUR-16.</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4xoQxXwJNDs7ntJ7ZJ7dwq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article>
+        <article contenteditable="true">
+          <h1>Aimer</h1>
+          <p>Aimer es una cantante y letrista japonesa, representada por SACRA MUSIC y administrada por Agehasprings. Su nombre proviene del verbo "Aimer" en francés que significa "amar". Su nombre real es desconocido. </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0bAsR2unSRpn6BQPEnNlZm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article>
+      </div>
+    </div>
+     <h1>Ventas de libros y Géneros Musicales</h1>
+
+    <h2 id="tablas" class="center">Elija la tabla que desea ver:</h2>
+    <select id="tablaSelector" onchange="mostrarTablaSeleccionada()">
+        <option value="">Tablas</option>
+        <option value="categorias">Tabla de Categorías</option>
+        <option value="generos">Tabla de Géneros Musicales</option>
+        <option value="ventas">Ventas de Libros y Música</option>
+    </select>
+
+    <!-- Tabla de Categorías -->
+    <h2 class="center">Tabla de Categorías</h2>
+    <table id="tablaCategorias">
+        <tr>
+            <th>ID</th>
+            <th>Nombre de la Categoría</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Literatura fantasiosa</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ciencia ficción</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fantasía cómica</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Acción</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ficción de aventuras</td>
+        </tr>
+    </table>
+
+    <!-- Tabla de Géneros Musicales -->
+    <h2 class="center">Tabla de Géneros Musicales</h2>
+    <table id="tablaGeneros">
+        <!-- Contenido de la tabla como antes -->
+        <tr>
+            <th>ID</th>
+            <th>Nombre del Género</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rock en español</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>J-Pop</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Urbano latino</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hip-hop/Rap</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Argentinian Trap</td>
+        </tr>
+    </table>
+
+    <!-- Tabla de Ventas de Libros y Música -->
+    <h2 class="center">Ventas de libros y música</h2>
+    <table id="tablaVentas">
+        <!-- Contenido de la tabla como antes -->
+        <tr>
+            <th>ID</th>
+            <th>Tipo</th>
+            <th>Título</th>
+            <th>Autor/Artista</th>
+            <th class="center">Precio</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="literatura">LITERATURA</td>
+            <td>OVERLORD: El rey no muerto</td>
+            <td>Kugane Maruyama</td>
+            <td class="center price">289</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="literatura">LITERATURA</td>
+            <td>Overlord Vol.2: The Dark Warrior</td>
+            <td>Kugane Maruyama</td>
+            <td class="center price">289</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="literatura">LITERATURA</td>
+            <td>Overlord Vol.3: The Bloody Valkyrie</td>
+            <td>Kugane Maruyama</td>
+            <td class="center price">249</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="literatura">LITERATURA</td>
+            <td>Overlord Vol. 4: The Lizardman Heroes</td>
+            <td>Kugane Maruyama</td>
+            <td class="center price">330</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="musica">MUSICA</td>
+            <td>Brave Shine</td>
+            <td>Aimer</td>
+            <td class="center price">400</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class="musica">MUSICA</td>
+            <td>Song Machine: Season One - Strange Timez</td>
+            <td>Gorillaz</td>
+            <td class="center price">499</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td class="musica">MUSICA</td>
+            <td>Future Nostalgia</td>
+            <td>Dua Lipa</td>
+            <td class="center price">399</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td class="musica">MUSICA</td>
+            <td>Fine Line</td>
+            <td>Harry Styles</td>
+            <td class="center price">450</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td class="musica">MUSICA</td>
+            <td>When We All Fall Asleep, Where Do We Go?</td>
+            <td>Billie Eilish</td>
+            <td class="center price">350</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td class="musica">MUSICA</td>
+            <td>Rumors</td>
+            <td>Lizzo</td>
+            <td class="center price">299</td>
+        </tr>
+    </table>
+
+    <script>
+        function mostrarTablaSeleccionada() {
+            const tablaSelector = document.getElementById('tablaSelector');
+            const tablaCategorias = document.getElementById('tablaCategorias');
+            const tablaGeneros = document.getElementById('tablaGeneros');
+            const tablaVentas = document.getElementById('tablaVentas');
+
+            // Ocultar todas las tablas
+            tablaCategorias.style.display = 'none';
+            tablaGeneros.style.display = 'none';
+            tablaVentas.style.display = 'none';
+
+            // Mostrar la tabla seleccionada
+            const tablaSeleccionada = tablaSelector.value;
+            if (tablaSeleccionada === 'categorias') {
+                tablaCategorias.style.display = 'table';
+            } else if (tablaSeleccionada === 'generos') {
+                tablaGeneros.style.display = 'table';
+            } else if (tablaSeleccionada === 'ventas') {
+                tablaVentas.style.display = 'table';
+            }
+        }
+    </script>
+  </main>
+</div>
+  <footer>
+    <div class="social-media">
+      <a href="http://www.facebook.com/AQUI_TU_PAGINA" target="_blank"><img alt="Siguenos en Facebook" src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" width=32 height=32  /></a>
+      <a href="http://twitter.com/AQUI_TU_USUARIO" target="_blank"><img src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" width=32 height=32 alt="Síguenos en Twitter" /></a>
+    </div>
+      <p>&copy; 2023 Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
